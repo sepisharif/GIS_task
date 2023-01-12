@@ -20,4 +20,4 @@ The objective of this task is to utilise a few R-documented functions and do a "
 *  The 'distGeo ()' function is highly precise estimation of the shortest distance between two places on a WGS84 ellipsoid (a standard used in cartography, geodesy, and satellite navigation including GPS, GIS).Therefore, it is highly recommended and common method.
 
 ### Conclusion
-*  Although the accuracy discrepancy in this simple example is not significant, the distances of the coordinates could be used to determine which approach to employ. For sites that are close together, the computationally easier spherical Earth methods will suffice. However, for points that are far away, the somewhat more complex ellipsoid approaches will produce a superior result. 
+*  Although the accuracy discrepancy in this simple example is not significant, the distances of the coordinates could be used to determine which approach to employ. For sites that are close together, the computationally easier spherical Earth methods will be adequate. However, for points that are far away, the somewhat more complex ellipsoid approaches will produce a superior result. 
