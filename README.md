@@ -18,6 +18,6 @@ The objective of this task is to utilise a few R-documented functions and do a "
 
 *  The 'distVincentyEllipsoid ()' function is derived from the formula Vincenty which assumes a Vincenty ellipsoid. Consequently, it is highly exact, but computationally intensive. This function is altered to 'distVincentySphere ()' with less precision when the ellipsoid is ignored; nevertheless, it is not included in the code just mentioned.
 
-*  The 'distGeo ()' function is highly precise estimation of the shortest distance between two places on a WGS84 ellipsoid (a standard used in cartography, geodesy, and satellite navigation including GPS).
+*  The 'distGeo ()' function is highly precise estimation of the shortest distance between two places on a WGS84 ellipsoid (a standard used in cartography, geodesy, and satellite navigation including GPS).Therefore it is highly recommended and common method.
 
-*  For sites that are close together, the computationally easier spherical Earth methods will suffice, however for points that are far away, the somewhat more complex ellipsoid approaches will produce a superior result.
+*  Although the accuracy discrepancy in this simple example is not significant, the distances of the coordinates could be used to determine which approach to employ. For sites that are close together, the computationally easier spherical Earth methods will suffice. However, for points that are far away, the somewhat more complex ellipsoid approaches will produce a superior result. 
